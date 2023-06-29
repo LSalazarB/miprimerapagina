@@ -4,7 +4,7 @@
     <link rel="stylesheet" type="text/css" href="estilo.css">
   </head>
   <body>
-    <div class="container-nav">
+    <header class="container-nav">
       <nav class="navbar" role="navigation">
         <a href="index.html" class="brand">Mi página web</a>
         <ul class="nav-links">
@@ -15,8 +15,8 @@
         </ul>
       </nav>
       <button class="button-menu-toggle">Menu</button>
-    </div>
-    <div class="container">
+    </header>
+    <main class="container">
         <h1>Contactoso</h1>
         <p>¡Contáctanos para cualquier consulta o solicitud de información!</p>
         <form>
@@ -24,8 +24,10 @@
             <input type="email" id="email" name="email" required>
             <button type="submit">Enviar</button>
         </form>
-    </div>
-    <button onclick="showAlert()" aria-label="¡Presiona aqui!">¡Presiona aqui!</button>
+    </main>
+    <footer>
+        <button onclick="showAlert()" aria-label="¡Presiona aqui!">¡Presiona aqui!</button>
+    </footer>
     <sript src="script.js"></sript>
   </body>
 </html>
